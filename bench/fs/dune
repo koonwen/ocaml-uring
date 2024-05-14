@@ -1,0 +1,3 @@
+(executable
+ (name gen_fs)
+ (preprocess (pps ppx_deriving.show)))
