@@ -1,0 +1,4 @@
+(executable
+ (name uring_walk)
+ (modules uring_walk)
+ (libraries uring))
