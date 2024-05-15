@@ -1,3 +1,11 @@
 (executable
  (name gen_fs)
- (preprocess (pps ppx_deriving.show)))
+ (preprocess (pps ppx_deriving.show))
+ (modules gen_fs))
+
+(executable
+ (name stat_bench)
+ (libraries uring)
+(modules stat_bench))
+
+(dirs :standard \ root)
